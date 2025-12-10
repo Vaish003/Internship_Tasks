@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stylish Records Table</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 30px;
+        background: #f5f7fa;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    /* Responsive wrapper */
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Table styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 600px; /* ensures scroll on small screens */
+    }
+
+    thead tr {
+        background-color: #63a0d9;
+        color: white;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left; /* left alignment */
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Zebra striping */
+    tbody tr:nth-child(even) {
+        background: #f2f6fc;
+    }
+    tbody tr:nth-child(odd) {
+        background: #ffffff;
+    }
+
+    /* Hover effect */
+    tbody tr:hover {
+        background-color: #d8e8ff;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h2>User Records</h2>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Aarav Mehta</td>
+                <td>aarav@gmail.com</td>
+                <td>Admin</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Priya Sharma</td>
+                <td>priya@yahoo.com</td>
+                <td>Student</td>
+                <td>Inactive</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Rohan Jain</td>
+                <td>rohan@abc.com</td>
+                <td>Manager</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>004</td>
+                <td>Simran Kaur</td>
+                <td>simran@gmail.com</td>
+                <td>HR</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>005</td>
+                <td>Dev Patel</td>
+                <td>dev@xyz.com</td>
+                <td>Intern</td>
+                <td>Pending</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+
+</body>
+</html>
