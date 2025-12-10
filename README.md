@@ -29,3 +29,19 @@ It includes two main pages:
 2. Open login.html in any web browser.
 3. To register a new account, click "Create Account" (or "Signup") shown on login page.
 4. After signup, you can return to the login page using the link provided.
+
+  ## Task 3 :
+This project contains a simple Card Section + Record Table Layout using HTML and CSS. It includes two main pages:
+
+cards_table.html – For html code
+style.css – For decoration alignment purpose
+
+## Technologies Used
+HTML
+CSS
+
+## 📖 How to Use
+Download or copy the project folder.
+Open cards_table.html in any web browser.
+Open css file from style.css
+Open Image folder for image refference
