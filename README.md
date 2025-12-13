@@ -45,3 +45,51 @@ Download or copy the project folder.
 Open cards_table.html in any web browser.
 Open css file from style.css
 Open Image folder for image refference
+
+
+# Task 4 – Multi-Step Form Project
+
+## 📌 Overview
+
+This project is **Task 4**, which implements a **multi-step HTML & CSS form**. The form is divided into **Step 1 to Step 4**, followed by a **Preview Page**. Each step collects specific user information, and the preview page displays the summary before final submission.
+
+---
+## 🛠 Technologies Used
+
+* **HTML5** – Structure
+* **CSS** – Styling and layout
+
+---
+## 🧩 Project Structure
+
+* **Step 1:** Personal Information Form
+* **Step 2:** Address Details Form
+* **Step 3:** Education / Additional Details Form
+* **Step 4:** Course / Final Input Details Form
+* **Preview Page:** Displays all entered details in styled div boxes
+
+
+### 🔙 Navigation
+
+* **Previous Link:**
+
+  * A hyperlink provided on the preview page
+  * Redirects the user back to **Step 4** for editing
+
+### ✅ Submission
+
+* **Submit Button:**
+
+  * Used to submit the complete form after final review
+
+---
+
+## 🎨 UI & Styling
+
+* Clean and responsive layout
+* Uses **CSS Flexbox** for alignment
+* Rounded borders and padding for better UI
+* Hover effects on buttons
+
+
+
