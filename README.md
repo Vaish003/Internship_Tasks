@@ -91,5 +91,41 @@ This project is **Task 4**, which implements a **multi-step HTML & CSS form**. T
 * Rounded borders and padding for better UI
 * Hover effects on buttons
 
+## Task 5 – About Us & Contact Us Website
+
+## 📌 Project Overview
+
+The project demonstrates the use of semantic HTML, CSS styling, page navigation, and reusable UI components by creating:
+About Us Page
+Contact Us Page
+Both pages are connected through a common navigation bar and include a header and footer.
+
+## 🧾 Prerequisites / Concepts Covered
+
+The following concepts are implemented as required:
+
+Semantic HTML tags (header, nav, section, main, footer)
+Page navigation using anchor links
+Form creation and styling
+CSS layout and alignment
+Reusable UI components (Navbar & Footer)
+Embedded Google Map (Location section)
+
+## 📁 Project Structure
+project-folder/
+│── about.html        # About Us page
+│── contact.html      # Contact Us page
+│── style.css         # Common CSS file
+│── images/           # Images and icons used
+│── README.md         # Project documentation
+
+## ▶️ How to Run the Project
+
+Download or clone the repository
+Open the project folder
+Open about.html in a web browser
+Use the navigation menu to move between pages
+
+
 
 
