@@ -1,0 +1,67 @@
+
+header, footer {
+    background-color: #c0deee;
+    color: #0f1941;
+    font-size: 20px;
+    padding: 30px;
+}
+    .main-nav a {
+    color: #0f1941;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image:url("img/contact.jpg");
+ background-attachment:scroll;
+    background-position: center;
+    background-size : cover;
+    background-repeat:no-repeat;
+    height:100%;
+    width:99%;}
+
+main {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.two-column {
+    display: flex;
+}
+
+.box {
+   background: #e1eef5;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+iframe {
+    width: 95%;
+    height: 150px;
+}
