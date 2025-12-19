@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+<div class="card">
+    <h2>User Registration</h2>
+
+    <form onsubmit="return validateForm()" >
+        <div class="form-group">
+            <label>Enter First Name : </label>
+            <input type="text" id="fname" >
+        </div>
+
+        <div class="form-group">
+            <label>Enter Last Name</label>
+            <input type="text" id="lname" >
+        </div>
+
+        <div class="form-group">
+            <label>Enter Email : </label>
+            <input type="email"id="email"  >
+        </div>
+
+        <div class="form-group">
+            <label>Enter Phone Number : </label>
+            <input type="tel" id="phone" >
+        </div>
+
+        <div class="form-group">
+            <label>Enter Password : </label>
+            <input type="password" id="password"  >
+        </div>
+
+        <div class="form-group">
+            <label>Enter Confirm Password : </label>
+            <input type="password" id="cpassword" >
+        </div>
+
+        <div class="form-group">
+            <label>User Type</label>
+            <select id="userType" >
+                <option value="">Select User Type</option>
+                <option>Student</option>
+                <option>Admin</option>
+            </select>
+        </div>
+
+        <button  type="submit">Sign Up</button>
+    </form>
+</div>
+
+</body>
+</html>
