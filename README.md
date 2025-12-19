@@ -127,5 +127,27 @@ Open about.html in a web browser
 Use the navigation menu to move between pages
 
 
+## Task 6:  Signup Form
+
+This is a simple **Signup Form** created using **HTML, CSS, and JavaScript**.
+
+## Features
+- Card layout signup form
+- All fields are mandatory
+- Email format validation
+- 10-digit phone number validation
+- Password minimum 6 characters
+- Password and Confirm Password match check
+- Error messages shown below fields
+- Success message on valid submission (UI only)
+
+## Files
+- `signup.html` – HTML form
+- `style.css` – CSS styling
+- `script.js` – JavaScript validation
+
+## How to Run
+Open `signup.html` in any browser and test the form.
+
 
 
