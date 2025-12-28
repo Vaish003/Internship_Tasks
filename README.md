@@ -149,5 +149,25 @@ This is a simple **Signup Form** created using **HTML, CSS, and JavaScript**.
 ## How to Run
 Open `signup.html` in any browser and test the form.
 
+## Task 7 : JavaScript Topic Learning
+This repository contains JavaScript fundamentals notes with simple explanations and examples.It covers core to advanced concepts useful for beginners and internships.
 
+# Topics
+-Core JavaScript (let/const, data types, operators, conditions)
+-Functions & Arrow Functions
+-Objects & Arrays + Array Methods
+-ES6 Features (destructuring, spread, rest, template literals)
+-Classes & Inheritance
+-Asynchronous JavaScript (callbacks, promises, async/await)
+-Advanced Concepts (scope, closures, immutability)
+-DOM, Events, Storage, JSON
+
+# Purpose
+
+-Learn JavaScript basics clearly
+-Practice real-world examples
+-Internship & interview preparation
+
+# Status
+✔ Completed | ✔ Beginner Friendly
 
